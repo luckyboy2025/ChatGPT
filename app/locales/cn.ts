@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
 
 const cn = {
-  WIP: "该功能仍在开发中……",
+  WIP: "获取密码请关注公众号：AI动力",
   Error: {
     Unauthorized:
       "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，获取密码请关注公众号：AI动力。",
@@ -141,9 +141,9 @@ const cn = {
     },
 
     Usage: {
-      Title: "余额查询",
+      Title: "永久使用",
       SubTitle(used: any, total: any) {
-        return `本月已使用 $${used}，订阅总额 $${total}`;
+        return `获取密码请关注公众号：AI动力`;
       },
       IsChecking: "正在检查…",
       Check: "重新检查",
