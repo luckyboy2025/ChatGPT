@@ -4,7 +4,8 @@ const cn = {
   WIP: "获取密码请关注公众号：AI动力",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，获取密码、教程、入交流群请关注公众号：AI动力。",
+      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码。"
+       "【 获取密码、入交流群请关注公众号：AI动力】",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
